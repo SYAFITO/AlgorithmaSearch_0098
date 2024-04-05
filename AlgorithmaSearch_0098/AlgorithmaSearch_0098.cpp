@@ -47,7 +47,9 @@ void LinearSearch()
 		while (i < n) // step 3
 		{
 			cout << "\n" << item << "found at position " << (i + 1) << endl; // step 6
+			break;
 		}
+		i++; // step 4
 	}
 }
 
